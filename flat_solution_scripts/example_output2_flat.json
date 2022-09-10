@@ -1,0 +1,74 @@
+[
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "STRING",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "OBJECT",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "INTEGER",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "ENUM",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "BOOLEAN",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "ENUM",
+        "tag": "",
+        "description": "",
+        "required": false
+    },
+    {
+        "type": "BOOLEAN",
+        "tag": "",
+        "description": "",
+        "required": false
+    }
+]
