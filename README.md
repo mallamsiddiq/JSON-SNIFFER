@@ -33,7 +33,7 @@ in a case when the type is an object or an array of objects: i add an additional
 
 ### NOTE
 
-As the documentation doesn't give a clarifying directive as what to do with nested objects, alogside my prefered solution ealier explained i hereby also consider another solution which is also recursive but not backtracking, by going down the nodes i just append each objects to a list of objects and later return it as .json which results in a flat json object of a single top layer. Kindly check the flat_solution_scripts folder for the script and it’s associated sample output for each of data_1 and data_2.json. I didn't write test case for this module as i only introduced this to the ambiguities, kindly reach out to me in case of any required addition or changes
+As the documentation doesn't give a clarifying directive as what to do with nested objects, alongside my prefered solution earlier explained i hereby also consider another solution which is also recursive but not backtracking, by going down the nodes i just append each objects to a list of objects and later return it as .json which results in a flat json object of a single top layer. Kindly check the flat_solution_scripts folder for the script and its associated sample output for each of data_1 and data_2.json. I didn't write test case for this module as i only introduced this to the ambiguities, kindly reach out to me in case of any required addition or changes
 
 ## RUNNING
 
@@ -78,5 +78,7 @@ SODIQ
 
 
 further complaints to @mallamsiddiq@gmail.com
+
+
 
 
