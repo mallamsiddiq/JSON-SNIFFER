@@ -57,12 +57,10 @@ So right in this ./main_scripts/ directory you can make a call to the module Obj
 	# load a .json file and deserialize then save to self.data
 	>>> snf.load("../data/data_2.json")  # 
 	{'user': {'id': 'ABCDEFGHIJKLMNOP', 'nickname': 'ABCD', 'title': 'ABCDEFGHIJKLMNOPQRSTUVWXYZABC', 
-	'accountType': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'countryCode': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'orientation': 'ABCDEFGHIJKLMNOPQRSTU'},
-	 
+	'accountType': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'countryCode': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'orientation': 'ABCDEFGHIJKLMNOPQRSTU'}, 
 	'time': 890, 'acl': [], 'publicFeed': False, 'internationalCountries': ['ABCDEFGHIJKLMNOPQRSTUVWXYZA', 
-	'ABCDEFGHIJKLMNOPQ', 'ABCDEFGHIJKLMNOPQRSTUVW', 
-	'ABCDEFGHIJKLMNOPQRSTUVWXY', 'ABCDEFGHIJK', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 
-	'ABCDEFGHIJKLMNOPQR', 'ABCDEFG', 'ABCDEFGHIJKLM'], 'topTraderFeed': True}
+	'ABCDEFGHIJKLMNOPQ', 'ABCDEFGHIJKLMNOPQRSTUVW', 'ABCDEFGHIJKLMNOPQRSTUVWXY', 'ABCDEFGHIJK', 
+	'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'ABCDEFGHIJKLMNOPQR', 'ABCDEFG', 'ABCDEFGHIJKLM'], 'topTraderFeed': True}
 
 	#	sniff the data and return to self.data object
 	>>>	snf.sniff()
