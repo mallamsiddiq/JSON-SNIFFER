@@ -58,8 +58,8 @@ So right in this ./main_scripts/ directory you can make a call to the module Obj
 	>>> snf.load("../data/data_2.json")  # 
 	{'user': {'id': 'ABCDEFGHIJKLMNOP', 'nickname': 'ABCD', 'title': 'ABCDEFGHIJKLMNOPQRSTUVWXYZABC', 
 	'accountType': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'countryCode': 'ABCDEFGHIJKLMNOPQRSTUVWX', 'orientation': 'ABCDEFGHIJKLMNOPQRSTU'}, 
-	'time': 890, 'acl': [], 'publicFeed': False, 'internationalCountries': ['ABCDEFGHIJKLMNOPQRSTUVWXYZA', 'ABCDEFGHIJKLMNOPQ', 'ABCDEFGHIJKLMNOPQRSTUVW', 'ABCDEFGHIJKLMNOPQRSTUVWXY', 'ABCDEFGHIJK', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'ABCDEFGHIJKLMNOPQR', 'ABCDEFG', 'ABCDEFGHIJKLM'], 
-	'topTraderFeed': True}
+	'time': 890, 'acl': [], 'publicFeed': False, 'internationalCountries': ['ABCDEFGHIJKLMNOPQRSTUVWXYZA', 'ABCDEFGHIJKLMNOPQ', 'ABCDEFGHIJKLMNOPQRSTUVW', 'ABCDEFGHIJKLMNOPQRSTUVWXY', 'ABCDEFGHIJK', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 
+	'ABCDEFGHIJKLMNOPQR', 'ABCDEFG', 'ABCDEFGHIJKLM'], 'topTraderFeed': True}
 
 	#	sniff the data and return to self.data object
 	>>>	snf.sniff()
@@ -69,7 +69,8 @@ So right in this ./main_scripts/ directory you can make a call to the module Obj
 	{'user': {'type': 'OBJECT', 'tag': '', 'description': '', 'nested-properties': {'id': {'type': 'STRING', 'tag': '', 
 	'description': '', 'required': False}, 'nickname': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 
 	'title': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'accountType': {'type': 'STRING', 
-	'tag': '', 'description': '', 'required': False}, 'countryCode': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'orientation': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}}, 'required': False}, 
+	'tag': '', 'description': '', 'required': False}, 'countryCode': {'type': 'STRING', 'tag': '', 'description': '', 
+	'required': False}, 'orientation': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}}, 'required': False}, 
 	'time': {'type': 'INTEGER', 'tag': '', 'description': '', 'required': False}, 'acl': {'type': 'ENUM', 'tag': '', 
 	'description': '', 'required': False}, 'publicFeed': {'type': 'BOOLEAN', 'tag': '', 'description': '', 
 	'required': False}, 'internationalCountries': {'type': 'ENUM', 'tag': '', 'description': '', 'required': False}, 
