@@ -39,7 +39,7 @@ As the documentation doesn't give a clarifying directive as what to do with nest
 
 The script that performs the main logic is the main.py file contained as a class : Sniffer that takes in nothing by default but you can instantiate with a dict object if a deserialized json object is available. in this class is a method load(path) that takes in a path to json then deserializes and updates it to Sniffer.data. Also, I created a sniff() method that does the main sniffing logic and updates the Sniffer.data variable without wasting extraspace.
 
-so right inside the ./main_scripts/ directory you can run :
+so with python installed on your machine, right inside the ./main_scripts/ directory; you can run :
 
 		python -m unittest test
 
@@ -64,6 +64,7 @@ So right in this ./main_scripts/ directory you can make a call to the module Obj
 	# 	casually view the updated sniffed data
 	>>> snf.data
 	{'user': {'type': 'OBJECT', 'tag': '', 'description': '', 'nested-properties': {'id': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'nickname': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'title': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'accountType': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'countryCode': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}, 'orientation': {'type': 'STRING', 'tag': '', 'description': '', 'required': False}}, 'required': False}, 'time': {'type': 'INTEGER', 'tag': '', 'description': '', 'required': False}, 'acl': {'type': 'ENUM', 'tag': '', 'description': '', 'required': False}, 'publicFeed': {'type': 'BOOLEAN', 'tag': '', 'description': '', 'required': False}, 'internationalCountries': {'type': 'ENUM', 'tag': '', 'description': '', 'required': False}, 'topTraderFeed': {'type': 'BOOLEAN', 'tag': '', 'description': '', 'required': False}}
+	>>>
 
 	#	save/ write the sniffed schema to the provided valid path as a .json object
 	>>> snf.save("./console.json")
@@ -77,3 +78,5 @@ SODIQ
 
 
 further complaints to @mallamsiddiq@gmail.com
+
+
